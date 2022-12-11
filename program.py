@@ -30,9 +30,6 @@ df_agri_total,df_agri_countries = file_read("Agricultural Land.xls")
 Bar Graph 1
 Creating bar graph of energyused by mutiple countries from 1990-2014
 """
-
-
-
 #Header
 header = df_forest_countries.iloc[0].values.tolist()
 df_forest_countries.columns = header
@@ -59,8 +56,12 @@ years = [1990, 1995, 2000, 2005, 2010, 2014]
 #Creating new dataframe with only required data
 df_forest_subset_time = df_forest_time[years].copy()
 df_forest_subset_time = df_forest_subset_time.loc[df_forest_subset_time.index.isin(countries)]
+  
 
-#Bar Plot
+
+
+
+#Bar Plot to create bar chart from data
 n=8
 k=np.arange(n)
 width= 0.1
