@@ -8,7 +8,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-#File read function
+#File read function to read file
 def file_read(f_name):
     """
         A function that takes a filename, and reads it and loads it into two dataframes. One normal and one transposed
