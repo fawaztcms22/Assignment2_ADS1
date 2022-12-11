@@ -120,7 +120,7 @@ plt.show()
 
 """
 Renewable bar graph
-Creates a bar chart of renewale energy consumption of multiple countries during 1990-2014
+ this creates a bar chart of renewale energy consumption of multiple countries during 1990-2014
 """
 
 
